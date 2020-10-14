@@ -1,0 +1,29 @@
+{
+  "name": "@schema31/react-native-gcloud-monitoring-sdk",
+  "version": "1.0.0",
+  "description": "React-Native SDK to interact with gCloud Monitoring services",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schema31/react-native-gcloud-monitoring-sdk.git"
+  },
+  "keywords": [
+    "reactnative",
+    "gcloud",
+    "monitoring",
+    "logger",
+    "debug",
+    "log",
+    "logging",
+    "react-native"
+  ],
+  "author": "Schema31 S.p.A.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Schema31/react-native-gcloud-monitoring-sdk/issues"
+  },
+  "homepage": "https://github.com/Schema31/react-native-gcloud-monitoring-sdk#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
