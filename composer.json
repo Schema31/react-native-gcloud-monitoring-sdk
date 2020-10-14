@@ -1,0 +1,21 @@
+{
+    "name": "schema31/react-native-gcloud-monitoring-sdk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gabriele Orlando",
+            "email": "gorlando@schema31.it"
+        },
+        {
+            "name": "Eleonora Lorenzo",
+            "email": "elorenzo@schema31.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Schema31\\GCloudMonitoringSDK\\": "src/"
+        }
+    },
+    "require": {
+    }
+}
