@@ -1,6 +1,6 @@
 # react-native-gcloud-monitoring-sdk
 
-## Installation
+# Installation
 1. Run: `$ npm install --save react-native gcloud-monitoring-sdk`
 
 ## devDependencies
