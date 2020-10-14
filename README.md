@@ -1,7 +1,7 @@
 # react-native-gcloud-monitoring-sdk
 
 # Installation
-1. Run: `$ npm install --save react-native gcloud-monitoring-sdk`
+1. Run: `$ npm install --save react-native-gcloud-monitoring-sdk`
 
 ## devDependencies
 1. Run: `$ npm install --save react-native-device-info`
@@ -9,7 +9,7 @@
 
 # Setup
 ```javascript
-import Logger from "@schema31/react-gcloud-monitoring-sdk";
+import Logger from "@schema31/react-native-gcloud-monitoring-sdk";
 
 const LoggerConfig = {
   streamname: "development", //mandatory: the log stream name
