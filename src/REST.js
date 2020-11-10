@@ -113,7 +113,7 @@ export default class REST {
   {
     if (!this.host || !this._AuthKey || !this.url)
     {
-      console.error('Unable to send LOG stream')
+      console.log('Unable to send LOG stream')
       if (options.catch && typeof options.catch === 'function')
       {
         options.catch({
@@ -203,7 +203,7 @@ export default class REST {
 
     if(this.threshold < body.level)
     {
-      console.error('Unable to send LOG stream', `threshold: ${this.threshold}`, `level: ${body.level}`)
+      console.log('Unable to send LOG stream', `threshold: ${this.threshold}`, `level: ${body.level}`)
       if (options.catch && typeof options.catch === 'function') options.catch({
         error: 'unable_to_send_log',
         message: `Unable to send LOG stream, body.level excedes the allowed threshold: threshold: ${this.threshold}, level: ${body.level}`
@@ -229,7 +229,7 @@ export default class REST {
       if (options.then && typeof options.then === 'function') options.then(response)
     })
     .catch(error => {
-      console.error('There was an error on LOG writing', error)
+      console.log('There was an error on LOG writing', error)
       if (options.catch && typeof options.catch === 'function') options.catch(error)
     });
   }
