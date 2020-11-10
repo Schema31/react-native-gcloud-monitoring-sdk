@@ -1,6 +1,6 @@
 {
   "name": "@schema31/react-native-gcloud-monitoring-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React-Native SDK to interact with gCloud Monitoring services",
   "main": "src/index.js",
   "repository": {
